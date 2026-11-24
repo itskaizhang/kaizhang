@@ -1,7 +1,7 @@
 body {
     background-color: #ffffff;
     font-family: "arial";
-    font-size: 14px;
+    font-size: 16px;
 
 }
 
@@ -25,8 +25,8 @@ body {
 }
 
 .about {
-    margin: 0 35vw;
-    line-height: 18px;
+    margin: 0 30vw;
+    line-height: 20px;
 }
 
 .name {
@@ -55,4 +55,8 @@ a:link {
 
 a:visited {
     color: gray;
+}
+
+a:active {
+    color: rgb(70, 66, 189);
 }
