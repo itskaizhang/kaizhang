@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff;
+    font-family: "arial";
+    font-size: 14px;
+
+}
+
+::selection {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    height: 20vh;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+.about {
+    margin: 0 35vw;
+    line-height: 18px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+/* navbar */
+.navbar {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 20px 0 20px 0; 
+    gap: 1rem;
+}
+
+a:link {
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}
